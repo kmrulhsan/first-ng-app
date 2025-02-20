@@ -1,5 +1,10 @@
 <header>
   <nav>
-    {{ title() }}
+    <span routerLink="/">{{ title() }}</span>
+    <ul>
+      <li routerLink="/todos">
+        To Do
+      </li>
+    </ul>
   </nav>
 </header>
